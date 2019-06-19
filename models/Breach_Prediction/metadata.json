@@ -1,0 +1,66 @@
+{
+    "algorithm": "Pipeline",
+    "algorithmType": "Classification",
+    "author": "1077",
+    "createdAt": 1560924236414,
+    "features": [
+        {
+            "name": "ConcernID",
+            "sample": "COM-97240",
+            "type": "str"
+        },
+        {
+            "name": "IssueID",
+            "sample": "COM-97240_1",
+            "type": "str"
+        },
+        {
+            "name": "IssueDescription",
+            "sample": "Incorrect or insufficient explanation or disclosure- In relation to Bonus points eligibility",
+            "type": "str"
+        },
+        {
+            "name": "ConcernDescription",
+            "sample": "The customer applied for a new FF card online after he spoke to ANZ and confirming that he would be eligible for the points.  He was told he would be although he had closed another FF card only 11 months ago.  he called last week and was told his points will be loaded on the  08/08.  he called today and was informed of terms and conditions and that because his previous card had not been closed for at least 12 months this automatically makes him ineligible  -\tHe keeps getting misleading information and this is what happened when he was discussins a loan with ANZ. he ended up getting a loan with another bank.",
+            "type": "str"
+        },
+        {
+            "name": "ResolutionDescription",
+            "sample": "75 k approved as once off gwg request sent to Branch to call him to discuss bring varaible loan over to ANZ in a month's time",
+            "type": "str"
+        },
+        {
+            "name": "Clause",
+            "sample": "33",
+            "type": "str"
+        },
+        {
+            "name": "keyword_corpus",
+            "sample": "The customer applied for a new FF card online after he spoke to ANZ and confirming that he would be eligible for the points.  He was told he would be although he had closed another FF card only 11 months ago.  he called last week and was told his points will be loaded on the  08/08.  he called today and was informed of terms and conditions and that because his previous card had not been closed for at least 12 months this automatically makes him ineligible  -\tHe keeps getting misleading information and this is what happened when he was discussins a loan with ANZ. he ended up getting a loan with another bank.Incorrect or insufficient explanation or disclosure- In relation to Bonus points eligibility75 k approved as once off gwg request sent to Branch to call him to discuss bring varaible loan over to ANZ in a month's time33",
+            "type": "str"
+        },
+        {
+            "name": "Breach",
+            "sample": 0.0,
+            "type": "float"
+        }
+    ],
+    "id": 1560924236414,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "Breach",
+            "type": "float"
+        }
+    ],
+    "latestModelVersion": 1,
+    "learningType": "Supervised",
+    "name": "Breach_Prediction",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python35",
+    "serialization": "joblib",
+    "source": "",
+    "type": "scikit-learn-0.20"
+}

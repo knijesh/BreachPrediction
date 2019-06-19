@@ -1,0 +1,40 @@
+[
+  {
+    "args": [],
+    "author": "1077",
+    "dateCreated": 1560924274,
+    "displayName": "BreachPrediction-1560924257417",
+    "env": [],
+    "fileName": "BreachPrediction-batch-scoring-1560924257417.py",
+    "jobId": "c6ece96618241fad",
+    "jobName": "breachprediction-1560924257417",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/BreachPrediction-batch-scoring-1560924257417.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Batch scoring"
+  },
+  {
+    "args": [],
+    "author": "1077",
+    "dateCreated": 1560924437,
+    "displayName": "BreachPrediction-1560924389427",
+    "env": [],
+    "fileName": "BreachPrediction-model-evaluation-1560924389427.py",
+    "jobId": "3e486e71b5251162",
+    "jobName": "breachprediction-1560924389427",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/BreachPrediction-model-evaluation-1560924389427.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  }
+]
